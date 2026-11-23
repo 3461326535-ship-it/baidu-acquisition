@@ -1,0 +1,7 @@
+interface:
+  display_name: "百度获客诊断与运营"
+  short_description: "诊断百度搜索推广、oCPC项目、转化与报表，并安全执行已确认的优化"
+  default_prompt: "使用 $baidu-acquisition 检查当前百度搜索推广账户的项目、计划、oCPC转化目标和主要异常。"
+
+policy:
+  allow_implicit_invocation: true

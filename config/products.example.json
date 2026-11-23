@@ -1,0 +1,7 @@
+[
+  {
+    "name": "大型分布光度计",
+    "requiredTerms": ["LSG-1890", "LSG-1890B"],
+    "forbiddenTerms": ["LMS-6000"]
+  }
+]
