@@ -41,6 +41,12 @@ export type WriteOperation =
       reason?: string;
     }
   | { type: "keyword-delete"; ids: number[]; reason?: string }
+  // 2026-11-24 新增：更新关键词出价（批量）。 KeywordService/updateWord，body keywordTypes:[{keywordId,price}]。
+  | {
+      type: "keyword-price";
+      prices: Array<{ keywordId: number; price: number }>;
+      reason?: string;
+    }
   | { type: "creative-pause"; ids: number[]; reason?: string }
   | {
       type: "creative-add";
@@ -282,6 +288,13 @@ function opToCall(state: RunState, op: WriteOperation): Call {
         action: "keyword-delete",
         label: `keyword-delete:${op.ids.join(",")}`,
         body: { keywordIds: op.ids },
+      };
+    // 2026-11-24 新增：批量改关键词出价
+    case "keyword-price":
+      return {
+        action: "keyword-update",
+        label: `keyword-price:${op.prices.length}条`,
+        body: { keywordTypes: op.prices.map(p => ({ keywordId: p.keywordId, price: p.price })) },
       };
     case "ocpc-package-add":
       return {

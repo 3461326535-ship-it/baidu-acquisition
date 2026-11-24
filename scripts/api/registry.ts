@@ -102,6 +102,13 @@ export const ACTIONS = {
     method: "POST",
     qps: 100,
   },
+  // 2026-11-24 新增：更新关键词（改出价/暂停/匹配）。官方文档 pageId=100272 nodeId=208，端点 KeywordService/updateWord。
+  "keyword-update": {
+    endpoint: "/json/sms/service/KeywordService/updateWord",
+    method: "POST",
+    qps: 10,
+    write: true,
+  },
   "keyword-delete": {
     endpoint: "/json/sms/service/KeywordService/deleteWord",
     method: "POST",
