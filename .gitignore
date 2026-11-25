@@ -13,3 +13,7 @@ plan_*.json
 _*.err
 _proj.json
 
+
+# 临时排查数据文件
+_allkw.json
+chk-*.out
