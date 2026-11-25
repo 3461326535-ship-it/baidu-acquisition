@@ -59,6 +59,8 @@ npm test          # node --test
 ```bash
 # 账户与计划
 node scripts/cli.ts account get  --user-name "账户名"
+# 账户实时消费（今日累计，撞线当天核对口径；报表当日滞后，实时接口为准）
+node scripts/cli.ts account live --user-name "账户名" [--device 0|1|2]   # 0全部(默认)/1PC/2移动
 node scripts/cli.ts campaign list --user-name "账户名"
 
 # oCPC 项目（需 user-id，可用 account get 查 userId）

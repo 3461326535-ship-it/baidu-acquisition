@@ -31,6 +31,16 @@ async function main(): Promise<void> {
     return;
   }
 
+  // 2026-11-25 新增：账户实时消费（撞线当天核对口径，报表当日滞后）
+  if (domain === "account" && command === "live") {
+    const deviceRaw = option("--device");
+    const device = deviceRaw === undefined ? 0 : Number(deviceRaw);
+    if (![0, 1, 2].includes(device)) throw new Error("--device must be 0 (all), 1 (PC), or 2 (mobile).");
+    const result = await client.call("account-live-data-get", userName, { dataType: 1, device });
+    console.log(JSON.stringify({ success: true, action: "account-live-data-get", ...result }, null, 2));
+    return;
+  }
+
   if (domain === "campaign" && command === "list") {
     const result = await client.call("campaign-get", userName, {
       campaignFields: ["campaignId", "campaignName", "budget", "pause", "status", "adType", "businessPointName", "equipmentType", "campaignBidType", "campaignOcpcBidType"],

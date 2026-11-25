@@ -121,6 +121,13 @@ export const ACTIONS = {
     qps: 10,
     write: true,
   },
+  // 2026-11-25 新增：账户实时数据（todayTotalCost 今日累计消费），dev2.baidu.com pageId=100720 nodeId=266。
+  // 报表 170026 当日滞后，实时接口是当天撞线口径的核对来源。
+  "account-live-data-get": {
+    endpoint: "/json/sms/service/LiveReportService/getAccountLiveData",
+    method: "POST",
+    qps: 10,
+  },
 } as const satisfies Record<string, ActionDefinition>;
 
 export type ActionName = keyof typeof ACTIONS;

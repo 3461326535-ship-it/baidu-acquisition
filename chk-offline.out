@@ -1,0 +1,68 @@
+=== ACCOUNT === {"data":[{"userId":48928215,"balance":9231.39,"budget":800,"budgetType":1,"regDomain":"lisungroup.cn","userStat":11,"budgetOfflineTime":[{"time":"Nov 18, 2026 12:23:00 AM","flag":1},{"time":"Nov 18, 2026 7:43:00 PM","flag":0},{"time":"Nov 19, 2026 12:17:00 AM","flag":1},{"time":"Nov 19, 2026 8:18:00 PM","flag":0},{"time":"Nov 20, 2026 12:18:00 AM","flag":1},{"time":"Nov 20, 2026 4:26:00 PM","flag":0},{"time":"Nov 21, 2026 12:17:00 AM","flag":1},{"time":"Nov 23, 2026 12:06:00 PM","flag":0},{"time":"Nov 24, 2026 12:17:00 AM","flag":1},{"time":"Nov 24, 2026 1:29:00 PM","flag":0},{"time":"Nov 25, 2026 12:18:00 AM","flag":1},{"time":"Nov 25, 2026 3:14:00 PM","flag":0}]}],"expand":{}}
+=== CAMPAIGN last week (SUMMARY) ===
+{"name":"B3-移动-静电放电发生器","cost":814,"click":78,"imp":982,"cpc":10.4,"ctr":7.9}
+{"name":"B2-移动-雷击浪涌发生器","cost":727,"click":49,"imp":2307,"cpc":14.8,"ctr":2.1}
+{"name":"B8-移动-传导辐射测试仪","cost":552,"click":171,"imp":549,"cpc":3.2,"ctr":31.1}
+{"name":"B5-移动-盐雾试验箱","cost":474,"click":81,"imp":764,"cpc":5.9,"ctr":10.6}
+{"name":"B1-移动-积分球","cost":168,"click":9,"imp":189,"cpc":18.7,"ctr":4.8}
+{"name":"A3-PC-静电放电发生器","cost":141,"click":6,"imp":72,"cpc":23.4,"ctr":8.3}
+{"name":"B4-移动-分布光度计","cost":114,"click":6,"imp":223,"cpc":19,"ctr":2.7}
+{"name":"A1-PC-积分球","cost":74,"click":3,"imp":115,"cpc":24.7,"ctr":2.6}
+{"name":"A10-PC-RoHS测试设备","cost":8,"click":1,"imp":94,"cpc":8.2,"ctr":1.1}
+{"name":"新-A3-PC-静电放电发生器","cost":0,"click":0,"imp":5,"cpc":0,"ctr":0}
+{"name":"A5-PC-盐雾试验箱","cost":0,"click":0,"imp":15,"cpc":0,"ctr":0}
+{"name":"A2-PC-雷击浪涌发生器","cost":0,"click":0,"imp":149,"cpc":0,"ctr":0}
+{"name":"A8-PC-传导辐射测试仪","cost":0,"click":0,"imp":16,"cpc":0,"ctr":0}
+{"name":"A4-PC-分布光度计","cost":0,"click":0,"imp":15,"cpc":0,"ctr":0}
+{"name":"新-A4-PC-分布光度计","cost":0,"click":0,"imp":4,"cpc":0,"ctr":0}
+{"name":"新-A2-PC-雷击浪涌发生器","cost":0,"click":0,"imp":10,"cpc":0,"ctr":0}
+{"name":"新-A1-PC-积分球","cost":0,"click":0,"imp":9,"cpc":0,"ctr":0}
+=== 2026-11-23 TOP CAMPAIGNS ===
+{"n":"B2-移动-雷击浪涌发生器","cost":312,"click":16,"cpc":19.5}
+{"n":"B3-移动-静电放电发生器","cost":165,"click":10,"cpc":16.5}
+{"n":"B5-移动-盐雾试验箱","cost":83,"click":11,"cpc":7.6}
+{"n":"A3-PC-静电放电发生器","cost":22,"click":1,"cpc":22}
+{"n":"B1-移动-积分球","cost":19,"click":1,"cpc":18.6}
+=== 2026-11-24 TOP CAMPAIGNS ===
+{"n":"B5-移动-盐雾试验箱","cost":147,"click":20,"cpc":7.3}
+{"n":"B2-移动-雷击浪涌发生器","cost":136,"click":8,"cpc":17}
+{"n":"B8-移动-传导辐射测试仪","cost":130,"click":7,"cpc":18.5}
+{"n":"B3-移动-静电放电发生器","cost":115,"click":7,"cpc":16.4}
+{"n":"B1-移动-积分球","cost":23,"click":1,"cpc":23.5}
+{"n":"B4-移动-分布光度计","cost":23,"click":1,"cpc":22.6}
+{"n":"A1-PC-积分球","cost":20,"click":1,"cpc":19.6}
+=== 2026-11-25 TOP CAMPAIGNS ===
+{"n":"B3-移动-静电放电发生器","cost":212,"click":37,"cpc":5.7}
+{"n":"B5-移动-盐雾试验箱","cost":144,"click":26,"cpc":5.5}
+{"n":"B2-移动-雷击浪涌发生器","cost":97,"click":13,"cpc":7.5}
+{"n":"B8-移动-传导辐射测试仪","cost":66,"click":18,"cpc":3.6}
+{"n":"B1-移动-积分球","cost":52,"click":3,"cpc":17.4}
+{"n":"A3-PC-静电放电发生器","cost":39,"click":2,"cpc":19.3}
+{"n":"A1-PC-积分球","cost":21,"click":1,"cpc":21.4}
+{"n":"B4-移动-分布光度计","cost":10,"click":1,"cpc":10.5}
+=== KEYWORD TOP cost 11-24~25 ===
+{"word":"盐雾箱","cost":217,"click":26,"imp":273,"bid":10.62}
+{"word":"emc测试机","cost":195,"click":24,"imp":125,"bid":15}
+{"word":"浪涌发生器","cost":142,"click":12,"imp":129,"bid":12}
+{"word":"静电放电模拟器","cost":126,"click":11,"imp":94,"bid":15}
+{"word":"浪涌测试仪","cost":68,"click":5,"imp":42,"bid":12}
+{"word":"积分球","cost":56,"click":2,"imp":13,"bid":15}
+{"word":"盐雾试验机","cost":49,"click":16,"imp":102,"bid":4.5}
+{"word":"静电放电","cost":42,"click":3,"imp":23,"bid":15}
+{"word":"静电放电枪","cost":38,"click":2,"imp":21,"bid":15}
+{"word":"静电放电发生器","cost":37,"click":2,"imp":83,"bid":15}
+{"word":"esd测试设备","cost":35,"click":11,"imp":17,"bid":15}
+{"word":"光度计","cost":23,"click":1,"imp":43,"bid":15}
+{"word":"光谱积分球","cost":21,"click":1,"imp":2,"bid":15}
+{"word":"高压静电放电发生器","cost":21,"click":1,"imp":1,"bid":15}
+{"word":"积分球","cost":20,"click":1,"imp":24,"bid":15}
+{"word":"esd测试","cost":18,"click":1,"imp":12,"bid":15}
+{"word":"静电放电发生器","cost":17,"click":1,"imp":11,"bid":15}
+{"word":"上海盐雾测试箱","cost":16,"click":2,"imp":4,"bid":10.62}
+{"word":"esd静电测试设备","cost":11,"click":12,"imp":33,"bid":15}
+{"word":"esd静电发生器","cost":11,"click":1,"imp":3,"bid":15}
+{"word":"静电放电设备","cost":11,"click":1,"imp":3,"bid":15}
+{"word":"测光强的仪器","cost":10,"click":1,"imp":36,"bid":15}
+{"word":"积分球光谱分析仪","cost":10,"click":1,"imp":10,"bid":15}
+{"word":"led灯珠测试","cost":9,"click":1,"imp":8,"bid":15}
+{"word":"雷击浪涌发生器","cost":9,"click":1,"imp":3,"bid":12}
